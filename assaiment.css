@@ -84,21 +84,23 @@ body{
     font-size: 41px;
 }
 .Peobox-Button {
-    width: 163px;
-    padding: 10px;
+    width: 186px;;
+    padding: 12px;
     color: #fff;
+    font-size: 18px;
     border-radius: 25px;
     font-weight: 700;
     border: none;
     margin-top: 20px;
-    background: linear-gradient(335.64deg,#ff589b -19.22%,#ff136f 118.87%);      
+    background-color: #ff136f;      
 }
 .Icons {
     margin-left: 11px;
 }
 .Peobox-Button:hover{
-    background-color:tomato;
-    color: white;
+    background-color:transparent;
+    color: black;
+    transition: 0.3s;
 }
 
 /* media Quare start  */
@@ -208,6 +210,79 @@ button.Mybutton {
     }
 }
 /* MyProducts End */
+
+
+/* .Contact Section starts */
+.Contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Contact-banner img{
+    width: 100%;
+}
+.Contact-input {
+    margin-left: 50px;
+}
+.MyInput {
+    width: 400px;
+    height: 27px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    overflow: hidden;
+
+}
+.MyInput:hover{
+    
+    border: 2px solid #ff589b;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.Submit{
+    width: 130px;
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff136f;
+    margin-right: 21px;
+}
+.Submit:hover{
+    background-color: transparent;
+    color: black;
+    transition: 0.3s;
+}
+
+/* media Quare start  */
+/* Moabai device */
+@media only screen and (max-width:688px) {
+    .Container{
+        width: 100%;
+    }
+    .Contact{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+   
+}
+
+/*Tablit Devais*/
+@media only screen and (min-width:688px) and (max-width:992px){
+    .Container{
+        width: 100%;
+    }
+    .Contact{
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+/* .Contact Section starts */
+
 
 /* MY footer Star */
 .myFristFooter{

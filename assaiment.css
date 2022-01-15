@@ -1,0 +1,239 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8
+}
+
+/* All Section,Div Etc can be use Start */
+.MyMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Container{
+    width: 1250px;
+    padding: 30px;
+}
+/* All Section,Div Etc can be use End */
+
+/* header start */
+.Top-title{
+    font-size: 30px;
+}
+
+.myFristheader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.MenuBar{
+    justify-content: flex-end;
+}
+.MenuBar a {
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 26px;
+}
+.Topsosal {
+    font-size: 22px;
+    margin-right: 11px;
+    color: #0a97d6;
+}
+
+/* media Quare start  */
+
+/* Moabai device */
+@media only screen and (max-width:688px) {
+    .Container{
+        width: 100%;
+    }
+    .myFristheader{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+   
+}
+
+/*Tablit Devais*/
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+    .myFristheader{
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+    }
+        
+
+}
+/* media Quare End  */
+/* header End */
+
+
+
+ /* Influncer camera Start  */
+
+.fristClass{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Section-title {
+    font-size: 41px;
+}
+.Peobox-Button {
+    width: 163px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 700;
+    border: none;
+    margin-top: 20px;
+    background: linear-gradient(335.64deg,#ff589b -19.22%,#ff136f 118.87%);      
+}
+.Icons {
+    margin-left: 11px;
+}
+.Peobox-Button:hover{
+    background-color:tomato;
+    color: white;
+}
+
+/* media Quare start  */
+/* Moabai device */
+@media only screen and (max-width:688px) {
+    .Container{
+        width: 100%;
+    }
+    .fristClass{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+   
+}
+
+/*Tablit Devais*/
+@media only screen and (min-width:688px) and (max-width:992px){
+    .Container{
+        width: 100%;
+    }
+    .fristClass{
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+/* media Quare End  */
+/* Influncer camera End  */
+
+
+/* MyProducts Start */
+
+.Top_Title {
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+}
+.MyProducts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+}
+.Product {
+    background: white;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px -1px grey;
+}
+.product-banner img{
+    margin-top: 32px;
+}
+.product-prices {
+    color: #929292;
+    margin-bottom: 10px;
+}
+.colorFull{
+    color: orange;
+}
+.Retting span {
+    margin-left: 5px;
+    font-weight: 700;
+    color: #97969c;
+}
+.product-duation p {
+    font-weight: 700;
+    color: #9a8bd6;
+    line-height: 13px;
+}
+.seeMore {
+    display: grid;
+    justify-content: flex-end;
+}
+button.Mybutton {
+    border: none;
+    margin-top: 39px;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ff589b;
+}
+
+/* media Quare start  */
+/* Moabai device */
+@media only screen and (max-width:688px) {
+    .Container{
+        width: 100%;
+    }
+    .MyProducts{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+  
+}
+/*Tablit Devais*/
+@media only screen and (min-width:688px) and (max-width:992px){
+    .Container{
+        width: 100%;
+    }
+    .MyProducts{
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+/* MyProducts End */
+
+/* MY footer Star */
+.myFristFooter{
+    background-color: black;
+    color: white;
+}
+.myfooter{
+    display: grid;
+    justify-content: center;
+}
+.SosalIcons{
+    background-color: #626262;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.myFooter-Info {
+    margin-bottom: 14px;
+}
+.myFooter-Info p {
+    color: #dadad9;
+    line-height: 14px;
+}
+.FotterIcons{
+    margin-bottom: 25px;
+}
+/* MY footer End */
